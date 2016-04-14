@@ -1,7 +1,6 @@
 package com
 
 import (
-	"encoding/json"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -10,6 +9,7 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/pschlump/json" //	"encoding/json"
 	"github.com/pschlump/ms"
 )
 

@@ -1,4 +1,3 @@
-
 // (C) Philip Schlump, 2014.
 
 package com
@@ -6,9 +5,6 @@ package com
 import (
 	"testing"
 )
-	// "os"
-	// "fmt"
-	// "encoding/json"
 
 //type TestCase struct {
 //	format string
@@ -41,10 +37,10 @@ func TestPathToRelativeInverse(t *testing.T) {
 	//if false {
 	//	fmt.Printf ( "keep compiler happy when we are not using fmt.\n" )
 	//}
-	rv := PathToRelativeInverse( "./x" )
+	rv := PathToRelativeInverse("./x")
 	ex := ".."
 	if rv != ex {
-		t.Fatalf("Error results=[%s] expected=[%s]", rv, ex )
+		t.Fatalf("Error results=[%s] expected=[%s]", rv, ex)
 	}
 	//for i, v := range testCases {
 	//	// fmt.Printf ( "Running %d\n", i )
